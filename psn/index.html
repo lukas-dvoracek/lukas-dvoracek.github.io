@@ -243,6 +243,20 @@
     border-radius: 6px; padding: 4px 10px;
     font-size: 0.85rem; font-weight: 700; white-space: nowrap;
   }
+  .missing-chip.clickable { cursor: pointer; transition: background .15s; }
+  .missing-chip.clickable:hover { background: rgba(239,68,68,.28); }
+
+  /* Missing-trophy detail */
+  .detail-row > td { background: rgba(255,255,255,.02); padding: 12px 16px 16px; }
+  .miss-head {
+    font-size: 0.78rem; font-weight: 700; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .05em; margin-bottom: 10px;
+  }
+  .miss-ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .miss-item { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .miss-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; transform: translateY(1px); }
+  .miss-name { font-weight: 700; font-size: 0.9rem; color: var(--text); }
+  .miss-desc { font-size: 0.85rem; color: var(--muted); }
 
   .trophy-count {
     font-size: 0.85rem;
@@ -500,6 +514,19 @@ function applyFilters() {
   document.getElementById('candidateCount').textContent = filtered.length;
 }
 
+const TROPHY_COLORS = { bronze: '#cd7c2f', silver: '#9ca3af', gold: '#f0b429', platinum: '#a78bfa' };
+
+function missingList(trophies) {
+  return trophies.map(t => {
+    const c = TROPHY_COLORS[t.type] || '#64748b';
+    return `<li class="miss-item">
+      <span class="miss-dot" style="background:${c}"></span>
+      <span class="miss-name">${t.name}</span>
+      ${t.desc ? `<span class="miss-desc">${t.desc}</span>` : ''}
+    </li>`;
+  }).join('');
+}
+
 function renderRows(list) {
   const tbody = document.getElementById('gamesBody');
   tbody.innerHTML = '';
@@ -511,6 +538,10 @@ function renderRows(list) {
     const nameCell = g.gameUrl
       ? `<a href="${g.gameUrl}" target="_blank" class="game-name">${g.name}</a>${unobTag}`
       : `<span class="game-name">${g.name}</span>${unobTag}`;
+    const hasDetail = g.missingTrophies && g.missingTrophies.length;
+    const missCell = hasDetail
+      ? `<span class="missing-chip clickable" onclick="toggleDetail(${i})" title="Zobrazit chybějící trofeje">−${g.missing} ▾</span>`
+      : `<span class="missing-chip">−${g.missing}</span>`;
     tr.innerHTML = `
       <td class="rank-num">${i + 1}</td>
       <td>
@@ -528,11 +559,28 @@ function renderRows(list) {
         </div>
       </td>
       <td class="trophy-count"><strong>${g.earned}</strong>/${g.total}</td>
-      <td><span class="missing-chip">−${g.missing}</span></td>
+      <td>${missCell}</td>
       <td>${platCell(g)}</td>
     `;
     tbody.appendChild(tr);
+
+    if (hasDetail) {
+      const det = document.createElement('tr');
+      det.className = 'detail-row';
+      det.id = `det-${i}`;
+      det.style.display = 'none';
+      det.innerHTML = `<td colspan="6">
+        <div class="miss-head">Chybějící trofeje k platině (${g.missingTrophies.length}):</div>
+        <ul class="miss-ul">${missingList(g.missingTrophies)}</ul>
+      </td>`;
+      tbody.appendChild(det);
+    }
   });
+}
+
+function toggleDetail(i) {
+  const el = document.getElementById(`det-${i}`);
+  if (el) el.style.display = el.style.display === 'none' ? 'table-row' : 'none';
 }
 
 function renderGames(candidates) {
