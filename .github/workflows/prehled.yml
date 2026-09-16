@@ -1,0 +1,47 @@
+name: Přehled projektů
+
+on:
+  # Šťouchnutí z projektového repa po synchronizaci STAV.md ⇄ issues
+  repository_dispatch:
+    types: [stav-zmenen]
+  workflow_dispatch:
+  # Záchranná síť, kdyby se šťouchnutí ztratilo
+  schedule:
+    - cron: '17 5 * * *'
+
+concurrency:
+  group: prehled
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generuj:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Stáhnout STAV.md z projektových repů
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROJEKTY_SYNC }}
+        run: node nastroje/stahni-stavy.mjs
+
+      - name: Vygenerovat přehled
+        run: python3 nastroje/prehled.py --root tmp-stavy --out projekty
+
+      - name: Commitnout, když se něco změnilo
+        run: |
+          if [ -n "$(git status --porcelain projekty)" ]; then
+            git config user.name  'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add projekty
+            git commit -m 'Přehled projektů: přegenerováno'
+            git push
+          else
+            echo 'Přehled je aktuální.'
+          fi
