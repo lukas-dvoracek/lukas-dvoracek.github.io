@@ -1595,7 +1595,7 @@
     {
      "text": "Srovnat schema `category_rules` v `15.json` s `Migration_14_15.kt`",
      "hotovo": false,
-     "issue": null,
+     "issue": 1,
      "tagy": [
       "bug"
      ],
@@ -1605,7 +1605,7 @@
     {
      "text": "Duplicitní transakce z notifikací — zahodit podmínku na status v dedup bloku",
      "hotovo": false,
-     "issue": null,
+     "issue": 2,
      "tagy": [
       "bug"
      ],
@@ -1615,7 +1615,7 @@
     {
      "text": "Otestovat na zařízení novou projekci statistik (Dosud + naplánované + medián)",
      "hotovo": false,
-     "issue": null,
+     "issue": 3,
      "tagy": [
       "test"
      ],
@@ -1625,7 +1625,7 @@
     {
      "text": "Otestovat na zařízení pravidla kategorií bankovních notifikací",
      "hotovo": false,
-     "issue": null,
+     "issue": 4,
      "tagy": [
       "test"
      ],
@@ -1635,7 +1635,7 @@
     {
      "text": "Otestovat opravy z code review 1.11 — mazání úvěru, splátky, záloha",
      "hotovo": false,
-     "issue": null,
+     "issue": 5,
      "tagy": [
       "test"
      ],
@@ -1645,7 +1645,7 @@
     {
      "text": "Vydat v1.12 na Google Play",
      "hotovo": false,
-     "issue": null,
+     "issue": 6,
      "tagy": [
       "release"
      ],
@@ -1655,7 +1655,7 @@
     {
      "text": "Unikátní index na `notificationKey` + `INSERT OR IGNORE` proti race condition",
      "hotovo": false,
-     "issue": null,
+     "issue": 7,
      "tagy": [
       "bug"
      ],
@@ -1665,7 +1665,7 @@
     {
      "text": "Filtrovat `FLAG_GROUP_SUMMARY` a `FLAG_ONGOING_EVENT` u bankovních notifikací",
      "hotovo": false,
-     "issue": null,
+     "issue": 8,
      "tagy": [
       "banky"
      ],
@@ -1675,7 +1675,7 @@
     {
      "text": "`getInvestedByCategory` neořezává záporné netto per kategorii, Kotlin verze ano",
      "hotovo": false,
-     "issue": null,
+     "issue": 9,
      "tagy": [
       "bug"
      ],
@@ -1685,7 +1685,7 @@
     {
      "text": "Měna úvěrového účtu natvrdo CZK v `LoanRepository.createLoan`",
      "hotovo": false,
-     "issue": null,
+     "issue": 10,
      "tagy": [
       "bug"
      ],
@@ -1695,7 +1695,7 @@
     {
      "text": "Otestovat kolečko záloha → wipe → obnova úvěrů (nová i stará verze zálohy)",
      "hotovo": false,
-     "issue": null,
+     "issue": 11,
      "tagy": [
       "test"
      ],
@@ -1705,7 +1705,7 @@
     {
      "text": "App lock přes BiometricPrompt API s PIN/gesto fallbackem",
      "hotovo": false,
-     "issue": null,
+     "issue": 12,
      "tagy": [
       "android"
      ],
@@ -1715,7 +1715,7 @@
     {
      "text": "Zapnout `debugSymbolLevel = FULL` pro nativní knihovnu",
      "hotovo": false,
-     "issue": null,
+     "issue": 13,
      "tagy": [
       "android"
      ],
@@ -1725,7 +1725,7 @@
     {
      "text": "Centralizovaný PeriodEngine pro výpočet období rozpočtů",
      "hotovo": false,
-     "issue": null,
+     "issue": 14,
      "tagy": [
       "app"
      ],
@@ -1735,7 +1735,7 @@
     {
      "text": "Receipt URI perzistence — SAF/persistable permissions nebo kopie do app storage",
      "hotovo": false,
-     "issue": null,
+     "issue": 15,
      "tagy": [
       "app"
      ],
@@ -1745,7 +1745,7 @@
     {
      "text": "Dvojité potvrzení u „Smazat demo data\"",
      "hotovo": false,
-     "issue": null,
+     "issue": 16,
      "tagy": [
       "app"
      ],
@@ -1755,7 +1755,7 @@
     {
      "text": "Import notifikací ČSOB přes NotificationListenerService",
      "hotovo": false,
-     "issue": null,
+     "issue": 17,
      "tagy": [
       "banky"
      ],
@@ -1765,7 +1765,7 @@
     {
      "text": "Import notifikací Moneta",
      "hotovo": false,
-     "issue": null,
+     "issue": 18,
      "tagy": [
       "banky"
      ],
@@ -1775,7 +1775,7 @@
     {
      "text": "MVP fáze 1 — transakce, dashboard, databáze",
      "hotovo": true,
-     "issue": null,
+     "issue": 19,
      "tagy": [
       "app"
      ],
@@ -1785,7 +1785,7 @@
     {
      "text": "Opravit bug s TRANSFER investicemi ve statistikách výdajů",
      "hotovo": true,
-     "issue": null,
+     "issue": 20,
      "tagy": [
       "bug"
      ],
@@ -1795,7 +1795,7 @@
     {
      "text": "Privacy Policy a ToS dvojjazyčně",
      "hotovo": true,
-     "issue": null,
+     "issue": 21,
      "tagy": [
       "release"
      ],
@@ -1805,7 +1805,7 @@
     {
      "text": "Store listing",
      "hotovo": true,
-     "issue": null,
+     "issue": 22,
      "tagy": [
       "release"
      ],
@@ -1815,7 +1815,7 @@
     {
      "text": "Lokalizace CZ/EN",
      "hotovo": true,
-     "issue": null,
+     "issue": 23,
      "tagy": [
       "release"
      ],
@@ -1825,7 +1825,7 @@
     {
      "text": "Vizuální identita Refined Swiss Minimal",
      "hotovo": true,
-     "issue": null,
+     "issue": 24,
      "tagy": [
       "design"
      ],
@@ -1835,7 +1835,7 @@
     {
      "text": "Vydat v1.11 na Google Play",
      "hotovo": true,
-     "issue": null,
+     "issue": 25,
      "tagy": [
       "release"
      ],
@@ -1850,7 +1850,7 @@
       {
        "text": "Srovnat schema `category_rules` v `15.json` s `Migration_14_15.kt`",
        "hotovo": false,
-       "issue": null,
+       "issue": 1,
        "tagy": [
         "bug"
        ],
@@ -1860,7 +1860,7 @@
       {
        "text": "Duplicitní transakce z notifikací — zahodit podmínku na status v dedup bloku",
        "hotovo": false,
-       "issue": null,
+       "issue": 2,
        "tagy": [
         "bug"
        ],
@@ -1870,7 +1870,7 @@
       {
        "text": "Otestovat na zařízení novou projekci statistik (Dosud + naplánované + medián)",
        "hotovo": false,
-       "issue": null,
+       "issue": 3,
        "tagy": [
         "test"
        ],
@@ -1880,7 +1880,7 @@
       {
        "text": "Otestovat na zařízení pravidla kategorií bankovních notifikací",
        "hotovo": false,
-       "issue": null,
+       "issue": 4,
        "tagy": [
         "test"
        ],
@@ -1890,7 +1890,7 @@
       {
        "text": "Otestovat opravy z code review 1.11 — mazání úvěru, splátky, záloha",
        "hotovo": false,
-       "issue": null,
+       "issue": 5,
        "tagy": [
         "test"
        ],
@@ -1900,7 +1900,7 @@
       {
        "text": "Vydat v1.12 na Google Play",
        "hotovo": false,
-       "issue": null,
+       "issue": 6,
        "tagy": [
         "release"
        ],
@@ -1910,7 +1910,7 @@
       {
        "text": "Unikátní index na `notificationKey` + `INSERT OR IGNORE` proti race condition",
        "hotovo": false,
-       "issue": null,
+       "issue": 7,
        "tagy": [
         "bug"
        ],
@@ -1920,7 +1920,7 @@
       {
        "text": "Filtrovat `FLAG_GROUP_SUMMARY` a `FLAG_ONGOING_EVENT` u bankovních notifikací",
        "hotovo": false,
-       "issue": null,
+       "issue": 8,
        "tagy": [
         "banky"
        ],
@@ -1930,7 +1930,7 @@
       {
        "text": "`getInvestedByCategory` neořezává záporné netto per kategorii, Kotlin verze ano",
        "hotovo": false,
-       "issue": null,
+       "issue": 9,
        "tagy": [
         "bug"
        ],
@@ -1940,7 +1940,7 @@
       {
        "text": "Měna úvěrového účtu natvrdo CZK v `LoanRepository.createLoan`",
        "hotovo": false,
-       "issue": null,
+       "issue": 10,
        "tagy": [
         "bug"
        ],
@@ -1950,7 +1950,7 @@
       {
        "text": "Otestovat kolečko záloha → wipe → obnova úvěrů (nová i stará verze zálohy)",
        "hotovo": false,
-       "issue": null,
+       "issue": 11,
        "tagy": [
         "test"
        ],
@@ -1960,7 +1960,7 @@
       {
        "text": "App lock přes BiometricPrompt API s PIN/gesto fallbackem",
        "hotovo": false,
-       "issue": null,
+       "issue": 12,
        "tagy": [
         "android"
        ],
@@ -1970,7 +1970,7 @@
       {
        "text": "Zapnout `debugSymbolLevel = FULL` pro nativní knihovnu",
        "hotovo": false,
-       "issue": null,
+       "issue": 13,
        "tagy": [
         "android"
        ],
@@ -1980,7 +1980,7 @@
       {
        "text": "Centralizovaný PeriodEngine pro výpočet období rozpočtů",
        "hotovo": false,
-       "issue": null,
+       "issue": 14,
        "tagy": [
         "app"
        ],
@@ -1990,7 +1990,7 @@
       {
        "text": "Receipt URI perzistence — SAF/persistable permissions nebo kopie do app storage",
        "hotovo": false,
-       "issue": null,
+       "issue": 15,
        "tagy": [
         "app"
        ],
@@ -2000,7 +2000,7 @@
       {
        "text": "Dvojité potvrzení u „Smazat demo data\"",
        "hotovo": false,
-       "issue": null,
+       "issue": 16,
        "tagy": [
         "app"
        ],
@@ -2010,7 +2010,7 @@
       {
        "text": "Import notifikací ČSOB přes NotificationListenerService",
        "hotovo": false,
-       "issue": null,
+       "issue": 17,
        "tagy": [
         "banky"
        ],
@@ -2020,7 +2020,7 @@
       {
        "text": "Import notifikací Moneta",
        "hotovo": false,
-       "issue": null,
+       "issue": 18,
        "tagy": [
         "banky"
        ],
@@ -2030,7 +2030,7 @@
       {
        "text": "MVP fáze 1 — transakce, dashboard, databáze",
        "hotovo": true,
-       "issue": null,
+       "issue": 19,
        "tagy": [
         "app"
        ],
@@ -2040,7 +2040,7 @@
       {
        "text": "Opravit bug s TRANSFER investicemi ve statistikách výdajů",
        "hotovo": true,
-       "issue": null,
+       "issue": 20,
        "tagy": [
         "bug"
        ],
@@ -2050,7 +2050,7 @@
       {
        "text": "Privacy Policy a ToS dvojjazyčně",
        "hotovo": true,
-       "issue": null,
+       "issue": 21,
        "tagy": [
         "release"
        ],
@@ -2060,7 +2060,7 @@
       {
        "text": "Store listing",
        "hotovo": true,
-       "issue": null,
+       "issue": 22,
        "tagy": [
         "release"
        ],
@@ -2070,7 +2070,7 @@
       {
        "text": "Lokalizace CZ/EN",
        "hotovo": true,
-       "issue": null,
+       "issue": 23,
        "tagy": [
         "release"
        ],
@@ -2080,7 +2080,7 @@
       {
        "text": "Vizuální identita Refined Swiss Minimal",
        "hotovo": true,
-       "issue": null,
+       "issue": 24,
        "tagy": [
         "design"
        ],
@@ -2090,7 +2090,7 @@
       {
        "text": "Vydat v1.11 na Google Play",
        "hotovo": true,
-       "issue": null,
+       "issue": 25,
        "tagy": [
         "release"
        ],
