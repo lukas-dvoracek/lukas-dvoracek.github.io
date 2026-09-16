@@ -5,6 +5,7 @@
    "nazev": "FGBE-ModernV2",
    "slug": "fgbe-modernv2",
    "stav": "aktivní",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Modernizace gamebook enginu FGBE 4.60 (2008, Jan Jirkovský) na formát `.fgbk` v2.2 (JSON). Projekt má **dvě oddělené části** nad jedním formátem: - **Přehrávač** — Android aplikace (Kotlin/Compose), na které se hry hrají. - **Webový editor** — FGBE Studio, kde se hry píšou a publikují. Pojítkem je schéma `.fgbk` v2.2 a katalog: editor publikuje, přehrávač stahuje. Jazyk projektu: čeština.",
    "krok": "Spustit `firebase deploy --only hosting` v `publish-fgbe-books/` a vyplnit `CATALOG_BASE_URL` v `MainActivity.kt`.",
@@ -12,6 +13,7 @@
     {
      "text": "Ověřit `CATALOG_BASE_URL` — prázdná hodnota může katalog tiše shodit bez chybové hlášky",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "bug"
@@ -22,6 +24,7 @@
     {
      "text": "E2E test na zařízení: stáhni → hraj → ulož → znovu načti (roadmap 1.4)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "test"
@@ -32,6 +35,7 @@
     {
      "text": "Doimplementovat v `GameEngine.kt`: `timer`, `ui_lock`, `redirect`, `loop`, `status_bar`, kouzla v boji, buff útoky",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "engine"
@@ -42,6 +46,7 @@
     {
      "text": "Napsat `Media3AudioController` + zvuky do `res/raw/` a vyměnit `CompositionLocalProvider`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "audio"
@@ -52,6 +57,7 @@
     {
      "text": "Ověřit podporu `character_classes` a `add_object`/`inventory.objects[]` ze schématu v2.2",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "engine"
@@ -62,6 +68,7 @@
     {
      "text": "Napojit obálky přes Coil v `CatalogScreen.kt` a `GameScreen.kt`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "ui"
@@ -72,6 +79,7 @@
     {
      "text": "Ověřit, že `CatalogState.kt` pokrývá stavy O1–O6 ze `screens-offline.html`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "ui"
@@ -82,6 +90,7 @@
     {
      "text": "Aktualizovat `android/README.md` o Fázi 2 katalog",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android",
       "docs"
@@ -92,6 +101,7 @@
     {
      "text": "Fáze 1 MVP běží na zařízení — menu, katalog, hraní demo hry",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "android",
       "engine"
@@ -102,6 +112,7 @@
     {
      "text": "`GameEngine.kt`, `VariableStore.kt`, `CodewordStore.kt`",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "android",
       "engine"
@@ -112,6 +123,7 @@
     {
      "text": "Fáze 2 kód katalogu (38/38 testů)",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "android",
       "engine"
@@ -122,6 +134,7 @@
     {
      "text": "Rozhodnout Fázi 3: Next.js PWA, nebo rozšířit `fgbe-studio.html`?",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor",
       "rozhodnuti"
@@ -132,6 +145,7 @@
     {
      "text": "Potvrdit volbu 08b (Firebase editor) do roadmapy a STAV.md",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor",
       "rozhodnuti"
@@ -142,6 +156,7 @@
     {
      "text": "Naplánovat plné FGBE Studio — obrazovky E1, E4, E6 z dokumentace 08",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -151,6 +166,7 @@
     {
      "text": "Implementovat draft/QR publikační kanál",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -160,6 +176,7 @@
     {
      "text": "Zprovoznit zvuk ve `fgbe-player.html` (`sound`/`music` jsou no-op)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor",
       "audio"
@@ -170,6 +187,7 @@
     {
      "text": "Sladit `design/mockups/screens-editor.html` s reálným mini-studiem",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor",
       "design"
@@ -180,6 +198,7 @@
     {
      "text": "Ověřit aktuálnost kořenového `web/README.md`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor",
       "docs"
@@ -190,6 +209,7 @@
     {
      "text": "Správa assetů a obrázků v editoru",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -199,6 +219,7 @@
     {
      "text": "Blokový editor bez ručního JSON",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -208,6 +229,7 @@
     {
      "text": "Přihlášení autora pro publikaci",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -217,6 +239,7 @@
     {
      "text": "Studio Lite — validace, mapa příběhu, test-play, deterministický export",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -226,6 +249,7 @@
     {
      "text": "Webový přehrávač `fgbe-player.html`",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "editor"
      ],
@@ -235,6 +259,7 @@
     {
      "text": "Spustit `firebase deploy --only hosting` a vyplnit `CATALOG_BASE_URL`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "infra"
      ],
@@ -244,6 +269,7 @@
     {
      "text": "Ověřit, že app po deployi čte katalog z nasazené URL",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "infra"
      ],
@@ -253,6 +279,7 @@
     {
      "text": "Sjednotit hosting: `backend/README.md` plánuje R2, `publish-fgbe-books/` je na Firebase",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -262,6 +289,7 @@
     {
      "text": "Založit `tools/gbs-to-fgbk/` (Node CLI) dle dokumentace 05",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "migrace"
      ],
@@ -271,6 +299,7 @@
     {
      "text": "Portovat `GBSParser.js` z V1 do TS jako `GbsParser.ts`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "migrace"
      ],
@@ -280,6 +309,7 @@
     {
      "text": "Napsat `Encoding.ts` (Windows-1250 → UTF-8)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "migrace"
      ],
@@ -289,6 +319,7 @@
     {
      "text": "Vyřešit „těžké\" útoky s raw formulí z `utoky.gbs` — sdílený výrazový evaluátor s `calc_var`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "migrace"
      ],
@@ -298,6 +329,7 @@
     {
      "text": "Napsat testy migrátoru (`tests/migration.test.ts`)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -307,6 +339,7 @@
     {
      "text": "Založit sdílenou sadu konformančních vektorů Kotlin vs. JS engine",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -316,6 +349,7 @@
     {
      "text": "Rozhodnout auth a cloud savy (Fáze 2.3)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -325,6 +359,7 @@
     {
      "text": "Automatizovat přidání hry do katalogu (bump `catalog_version`, sha-256)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "infra"
      ],
@@ -334,6 +369,7 @@
     {
      "text": "Zaškrtnout v `dokumentace/06-roadmap.md` hotové položky Fáze 1.1–1.3c a 2.1–2.2",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -343,6 +379,7 @@
     {
      "text": "Smazat `_to_delete/` (`FGBE-Modern.zip`, `FGBE-puvodni.zip`, `android-skeleton-old/`)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "cleanup"
      ],
@@ -352,6 +389,7 @@
     {
      "text": "Zvážit rewrite git historie kvůli ZIPům",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "cleanup"
      ],
@@ -361,6 +399,7 @@
     {
      "text": "Schéma `fgbk-v2.schema.json` v2.2",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "format"
      ],
@@ -370,6 +409,7 @@
     {
      "text": "Dokumentace 01–09",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -379,6 +419,7 @@
     {
      "text": "Ukázkový projekt „Rozcestí\" s ověřenou dohratelností",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -388,6 +429,7 @@
     {
      "text": "Sdílený JS port enginu v2.2 (`web/engine/fgbe-engine.js`)",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "format"
      ],
@@ -402,6 +444,7 @@
       {
        "text": "Ověřit `CATALOG_BASE_URL` — prázdná hodnota může katalog tiše shodit bez chybové hlášky",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "bug"
@@ -412,6 +455,7 @@
       {
        "text": "E2E test na zařízení: stáhni → hraj → ulož → znovu načti (roadmap 1.4)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "test"
@@ -422,6 +466,7 @@
       {
        "text": "Doimplementovat v `GameEngine.kt`: `timer`, `ui_lock`, `redirect`, `loop`, `status_bar`, kouzla v boji, buff útoky",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "engine"
@@ -432,6 +477,7 @@
       {
        "text": "Napsat `Media3AudioController` + zvuky do `res/raw/` a vyměnit `CompositionLocalProvider`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "audio"
@@ -442,6 +488,7 @@
       {
        "text": "Ověřit podporu `character_classes` a `add_object`/`inventory.objects[]` ze schématu v2.2",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "engine"
@@ -452,6 +499,7 @@
       {
        "text": "Napojit obálky přes Coil v `CatalogScreen.kt` a `GameScreen.kt`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "ui"
@@ -462,6 +510,7 @@
       {
        "text": "Ověřit, že `CatalogState.kt` pokrývá stavy O1–O6 ze `screens-offline.html`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "ui"
@@ -472,6 +521,7 @@
       {
        "text": "Aktualizovat `android/README.md` o Fázi 2 katalog",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android",
         "docs"
@@ -482,6 +532,7 @@
       {
        "text": "Fáze 1 MVP běží na zařízení — menu, katalog, hraní demo hry",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "android",
         "engine"
@@ -492,6 +543,7 @@
       {
        "text": "`GameEngine.kt`, `VariableStore.kt`, `CodewordStore.kt`",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "android",
         "engine"
@@ -502,6 +554,7 @@
       {
        "text": "Fáze 2 kód katalogu (38/38 testů)",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "android",
         "engine"
@@ -517,6 +570,7 @@
       {
        "text": "Rozhodnout Fázi 3: Next.js PWA, nebo rozšířit `fgbe-studio.html`?",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor",
         "rozhodnuti"
@@ -527,6 +581,7 @@
       {
        "text": "Potvrdit volbu 08b (Firebase editor) do roadmapy a STAV.md",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor",
         "rozhodnuti"
@@ -537,6 +592,7 @@
       {
        "text": "Naplánovat plné FGBE Studio — obrazovky E1, E4, E6 z dokumentace 08",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -546,6 +602,7 @@
       {
        "text": "Implementovat draft/QR publikační kanál",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -555,6 +612,7 @@
       {
        "text": "Zprovoznit zvuk ve `fgbe-player.html` (`sound`/`music` jsou no-op)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor",
         "audio"
@@ -565,6 +623,7 @@
       {
        "text": "Sladit `design/mockups/screens-editor.html` s reálným mini-studiem",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor",
         "design"
@@ -575,6 +634,7 @@
       {
        "text": "Ověřit aktuálnost kořenového `web/README.md`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor",
         "docs"
@@ -585,6 +645,7 @@
       {
        "text": "Správa assetů a obrázků v editoru",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -594,6 +655,7 @@
       {
        "text": "Blokový editor bez ručního JSON",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -603,6 +665,7 @@
       {
        "text": "Přihlášení autora pro publikaci",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -612,6 +675,7 @@
       {
        "text": "Studio Lite — validace, mapa příběhu, test-play, deterministický export",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -621,6 +685,7 @@
       {
        "text": "Webový přehrávač `fgbe-player.html`",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "editor"
        ],
@@ -635,6 +700,7 @@
       {
        "text": "Spustit `firebase deploy --only hosting` a vyplnit `CATALOG_BASE_URL`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "infra"
        ],
@@ -644,6 +710,7 @@
       {
        "text": "Ověřit, že app po deployi čte katalog z nasazené URL",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "infra"
        ],
@@ -653,6 +720,7 @@
       {
        "text": "Sjednotit hosting: `backend/README.md` plánuje R2, `publish-fgbe-books/` je na Firebase",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -662,6 +730,7 @@
       {
        "text": "Založit `tools/gbs-to-fgbk/` (Node CLI) dle dokumentace 05",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "migrace"
        ],
@@ -671,6 +740,7 @@
       {
        "text": "Portovat `GBSParser.js` z V1 do TS jako `GbsParser.ts`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "migrace"
        ],
@@ -680,6 +750,7 @@
       {
        "text": "Napsat `Encoding.ts` (Windows-1250 → UTF-8)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "migrace"
        ],
@@ -689,6 +760,7 @@
       {
        "text": "Vyřešit „těžké\" útoky s raw formulí z `utoky.gbs` — sdílený výrazový evaluátor s `calc_var`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "migrace"
        ],
@@ -698,6 +770,7 @@
       {
        "text": "Napsat testy migrátoru (`tests/migration.test.ts`)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -707,6 +780,7 @@
       {
        "text": "Založit sdílenou sadu konformančních vektorů Kotlin vs. JS engine",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -716,6 +790,7 @@
       {
        "text": "Rozhodnout auth a cloud savy (Fáze 2.3)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -725,6 +800,7 @@
       {
        "text": "Automatizovat přidání hry do katalogu (bump `catalog_version`, sha-256)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "infra"
        ],
@@ -734,6 +810,7 @@
       {
        "text": "Zaškrtnout v `dokumentace/06-roadmap.md` hotové položky Fáze 1.1–1.3c a 2.1–2.2",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -743,6 +820,7 @@
       {
        "text": "Smazat `_to_delete/` (`FGBE-Modern.zip`, `FGBE-puvodni.zip`, `android-skeleton-old/`)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "cleanup"
        ],
@@ -752,6 +830,7 @@
       {
        "text": "Zvážit rewrite git historie kvůli ZIPům",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "cleanup"
        ],
@@ -761,6 +840,7 @@
       {
        "text": "Schéma `fgbk-v2.schema.json` v2.2",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "format"
        ],
@@ -770,6 +850,7 @@
       {
        "text": "Dokumentace 01–09",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -779,6 +860,7 @@
       {
        "text": "Ukázkový projekt „Rozcestí\" s ověřenou dohratelností",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -788,6 +870,7 @@
       {
        "text": "Sdílený JS port enginu v2.2 (`web/engine/fgbe-engine.js`)",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "format"
        ],
@@ -814,6 +897,7 @@
    "nazev": "Sylvarium: Seed & Saw",
    "slug": "forest-manager",
    "stav": "aktivní",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Strategická lesnická simulace, mobile-first s PC kompatibilitou. Realistická, ne arkádová — česká a evropská lesnická praxe, exotické dřevo jako endgame. Dřív „Forest Manager\"; repo je `ForestryGame`.",
    "krok": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template na PC — bez nich nejde vyrobit build.",
@@ -821,6 +905,7 @@
     {
      "text": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android"
      ],
@@ -830,6 +915,7 @@
     {
      "text": "Schválit a provést plán integrace nové mapy — parcely s tvary + spojité zakmenění % místo slotů",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -839,6 +925,7 @@
     {
      "text": "Dotykové UI nebo radiál pro telefon — teď jde hrát jen s klávesnicí",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -848,6 +935,7 @@
     {
      "text": "Nasadit Blender GLB assety do Godot buildu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "assets"
      ],
@@ -857,6 +945,7 @@
     {
      "text": "Ověřit výkon na PC i telefonu po výměně assetů",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "perf"
      ],
@@ -866,6 +955,7 @@
     {
      "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -875,6 +965,7 @@
     {
      "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "perf"
      ],
@@ -884,6 +975,7 @@
     {
      "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -893,6 +985,7 @@
     {
      "text": "Dodělat nekonečnou mapu přes obklopující prstence",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -902,6 +995,7 @@
     {
      "text": "Předělat fog-of-war na sépiový vzhled staré mapy",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -911,6 +1005,7 @@
     {
      "text": "Playtest balance první hodiny hry a doladit `config.js`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -920,6 +1015,7 @@
     {
      "text": "Tutoriál a onboarding prvních akcí",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -929,6 +1025,7 @@
     {
      "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -938,6 +1035,7 @@
     {
      "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -947,6 +1045,7 @@
     {
      "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -956,6 +1055,7 @@
     {
      "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -965,6 +1065,7 @@
     {
      "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -974,6 +1075,7 @@
     {
      "text": "Dopravní prostředky",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -983,6 +1085,7 @@
     {
      "text": "Expanze území",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -992,6 +1095,7 @@
     {
      "text": "Pila a štěpkovač",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1001,6 +1105,7 @@
     {
      "text": "Půda pro dřevinu — typ půdy × preference druhu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1010,6 +1115,7 @@
     {
      "text": "Sezónní a globální výzvy s žebříčkem",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1019,6 +1125,7 @@
     {
      "text": "Myslivost a hony",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1028,6 +1135,7 @@
     {
      "text": "Achievementy a odemykatelná encyklopedie",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1037,6 +1145,7 @@
     {
      "text": "Lokalizace EN/DE",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1046,6 +1155,7 @@
     {
      "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1055,6 +1165,7 @@
     {
      "text": "Návrh Wood-Wide Web mykorhizy",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1064,6 +1175,7 @@
     {
      "text": "Návrh dynamického kůrovce",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1073,6 +1185,7 @@
     {
      "text": "Návrh počasí a katastrof",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1082,6 +1195,7 @@
     {
      "text": "Návrh exotického dřeva a černého trhu",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1091,6 +1205,7 @@
     {
      "text": "Rozhodnutí přejít na Godot 4.7",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -1100,6 +1215,7 @@
     {
      "text": "Android export presety APK i AAB",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "android"
      ],
@@ -1109,6 +1225,7 @@
     {
      "text": "NetClient vrstva s lokálním offline-first backendem",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "gameplay"
      ],
@@ -1123,6 +1240,7 @@
       {
        "text": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android"
        ],
@@ -1132,6 +1250,7 @@
       {
        "text": "Schválit a provést plán integrace nové mapy — parcely s tvary + spojité zakmenění % místo slotů",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -1141,6 +1260,7 @@
       {
        "text": "Dotykové UI nebo radiál pro telefon — teď jde hrát jen s klávesnicí",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1150,6 +1270,7 @@
       {
        "text": "Nasadit Blender GLB assety do Godot buildu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "assets"
        ],
@@ -1159,6 +1280,7 @@
       {
        "text": "Ověřit výkon na PC i telefonu po výměně assetů",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "perf"
        ],
@@ -1168,6 +1290,7 @@
       {
        "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1177,6 +1300,7 @@
       {
        "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "perf"
        ],
@@ -1186,6 +1310,7 @@
       {
        "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -1195,6 +1320,7 @@
       {
        "text": "Dodělat nekonečnou mapu přes obklopující prstence",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1204,6 +1330,7 @@
       {
        "text": "Předělat fog-of-war na sépiový vzhled staré mapy",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1213,6 +1340,7 @@
       {
        "text": "Playtest balance první hodiny hry a doladit `config.js`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1222,6 +1350,7 @@
       {
        "text": "Tutoriál a onboarding prvních akcí",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1231,6 +1360,7 @@
       {
        "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1240,6 +1370,7 @@
       {
        "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -1249,6 +1380,7 @@
       {
        "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1258,6 +1390,7 @@
       {
        "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1267,6 +1400,7 @@
       {
        "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1276,6 +1410,7 @@
       {
        "text": "Dopravní prostředky",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1285,6 +1420,7 @@
       {
        "text": "Expanze území",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1294,6 +1430,7 @@
       {
        "text": "Pila a štěpkovač",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1303,6 +1440,7 @@
       {
        "text": "Půda pro dřevinu — typ půdy × preference druhu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1312,6 +1450,7 @@
       {
        "text": "Sezónní a globální výzvy s žebříčkem",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1321,6 +1460,7 @@
       {
        "text": "Myslivost a hony",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1330,6 +1470,7 @@
       {
        "text": "Achievementy a odemykatelná encyklopedie",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1339,6 +1480,7 @@
       {
        "text": "Lokalizace EN/DE",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1348,6 +1490,7 @@
       {
        "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1357,6 +1500,7 @@
       {
        "text": "Návrh Wood-Wide Web mykorhizy",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1366,6 +1510,7 @@
       {
        "text": "Návrh dynamického kůrovce",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1375,6 +1520,7 @@
       {
        "text": "Návrh počasí a katastrof",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1384,6 +1530,7 @@
       {
        "text": "Návrh exotického dřeva a černého trhu",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1393,6 +1540,7 @@
       {
        "text": "Rozhodnutí přejít na Godot 4.7",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -1402,6 +1550,7 @@
       {
        "text": "Android export presety APK i AAB",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "android"
        ],
@@ -1411,6 +1560,7 @@
       {
        "text": "NetClient vrstva s lokálním offline-first backendem",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "gameplay"
        ],
@@ -1437,6 +1587,7 @@
    "nazev": "Korunka",
    "slug": "korunka",
    "stav": "aktivní",
+   "repo": "lukas-dvoracek/Korunka",
    "aktualizovano": "2026-09-16",
    "co": "Česká aplikace na osobní finance pro Android — výdaje a příjmy, náhrada za excelovské tabulky. Privacy-first: lokální úložiště, žádná cloudová synchronizace.",
    "krok": "Srovnat schema `category_rules` v `15.json` s `Migration_14_15.kt` — po buildu by aplikace jinak nenastartovala.",
@@ -1444,6 +1595,7 @@
     {
      "text": "Srovnat schema `category_rules` v `15.json` s `Migration_14_15.kt`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1453,6 +1605,7 @@
     {
      "text": "Duplicitní transakce z notifikací — zahodit podmínku na status v dedup bloku",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1462,6 +1615,7 @@
     {
      "text": "Otestovat na zařízení novou projekci statistik (Dosud + naplánované + medián)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -1471,6 +1625,7 @@
     {
      "text": "Otestovat na zařízení pravidla kategorií bankovních notifikací",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -1480,6 +1635,7 @@
     {
      "text": "Otestovat opravy z code review 1.11 — mazání úvěru, splátky, záloha",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -1489,6 +1645,7 @@
     {
      "text": "Vydat v1.12 na Google Play",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -1498,6 +1655,7 @@
     {
      "text": "Unikátní index na `notificationKey` + `INSERT OR IGNORE` proti race condition",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1507,6 +1665,7 @@
     {
      "text": "Filtrovat `FLAG_GROUP_SUMMARY` a `FLAG_ONGOING_EVENT` u bankovních notifikací",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "banky"
      ],
@@ -1516,6 +1675,7 @@
     {
      "text": "`getInvestedByCategory` neořezává záporné netto per kategorii, Kotlin verze ano",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1525,6 +1685,7 @@
     {
      "text": "Měna úvěrového účtu natvrdo CZK v `LoanRepository.createLoan`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1534,6 +1695,7 @@
     {
      "text": "Otestovat kolečko záloha → wipe → obnova úvěrů (nová i stará verze zálohy)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -1543,6 +1705,7 @@
     {
      "text": "App lock přes BiometricPrompt API s PIN/gesto fallbackem",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android"
      ],
@@ -1552,6 +1715,7 @@
     {
      "text": "Zapnout `debugSymbolLevel = FULL` pro nativní knihovnu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "android"
      ],
@@ -1561,6 +1725,7 @@
     {
      "text": "Centralizovaný PeriodEngine pro výpočet období rozpočtů",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -1570,6 +1735,7 @@
     {
      "text": "Receipt URI perzistence — SAF/persistable permissions nebo kopie do app storage",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -1579,6 +1745,7 @@
     {
      "text": "Dvojité potvrzení u „Smazat demo data\"",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -1588,6 +1755,7 @@
     {
      "text": "Import notifikací ČSOB přes NotificationListenerService",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "banky"
      ],
@@ -1597,6 +1765,7 @@
     {
      "text": "Import notifikací Moneta",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "banky"
      ],
@@ -1606,6 +1775,7 @@
     {
      "text": "MVP fáze 1 — transakce, dashboard, databáze",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -1615,6 +1785,7 @@
     {
      "text": "Opravit bug s TRANSFER investicemi ve statistikách výdajů",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1624,6 +1795,7 @@
     {
      "text": "Privacy Policy a ToS dvojjazyčně",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -1633,6 +1805,7 @@
     {
      "text": "Store listing",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -1642,6 +1815,7 @@
     {
      "text": "Lokalizace CZ/EN",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -1651,6 +1825,7 @@
     {
      "text": "Vizuální identita Refined Swiss Minimal",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -1660,6 +1835,7 @@
     {
      "text": "Vydat v1.11 na Google Play",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -1674,6 +1850,7 @@
       {
        "text": "Srovnat schema `category_rules` v `15.json` s `Migration_14_15.kt`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1683,6 +1860,7 @@
       {
        "text": "Duplicitní transakce z notifikací — zahodit podmínku na status v dedup bloku",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1692,6 +1870,7 @@
       {
        "text": "Otestovat na zařízení novou projekci statistik (Dosud + naplánované + medián)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -1701,6 +1880,7 @@
       {
        "text": "Otestovat na zařízení pravidla kategorií bankovních notifikací",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -1710,6 +1890,7 @@
       {
        "text": "Otestovat opravy z code review 1.11 — mazání úvěru, splátky, záloha",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -1719,6 +1900,7 @@
       {
        "text": "Vydat v1.12 na Google Play",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -1728,6 +1910,7 @@
       {
        "text": "Unikátní index na `notificationKey` + `INSERT OR IGNORE` proti race condition",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1737,6 +1920,7 @@
       {
        "text": "Filtrovat `FLAG_GROUP_SUMMARY` a `FLAG_ONGOING_EVENT` u bankovních notifikací",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "banky"
        ],
@@ -1746,6 +1930,7 @@
       {
        "text": "`getInvestedByCategory` neořezává záporné netto per kategorii, Kotlin verze ano",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1755,6 +1940,7 @@
       {
        "text": "Měna úvěrového účtu natvrdo CZK v `LoanRepository.createLoan`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1764,6 +1950,7 @@
       {
        "text": "Otestovat kolečko záloha → wipe → obnova úvěrů (nová i stará verze zálohy)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -1773,6 +1960,7 @@
       {
        "text": "App lock přes BiometricPrompt API s PIN/gesto fallbackem",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android"
        ],
@@ -1782,6 +1970,7 @@
       {
        "text": "Zapnout `debugSymbolLevel = FULL` pro nativní knihovnu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "android"
        ],
@@ -1791,6 +1980,7 @@
       {
        "text": "Centralizovaný PeriodEngine pro výpočet období rozpočtů",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1800,6 +1990,7 @@
       {
        "text": "Receipt URI perzistence — SAF/persistable permissions nebo kopie do app storage",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1809,6 +2000,7 @@
       {
        "text": "Dvojité potvrzení u „Smazat demo data\"",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1818,6 +2010,7 @@
       {
        "text": "Import notifikací ČSOB přes NotificationListenerService",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "banky"
        ],
@@ -1827,6 +2020,7 @@
       {
        "text": "Import notifikací Moneta",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "banky"
        ],
@@ -1836,6 +2030,7 @@
       {
        "text": "MVP fáze 1 — transakce, dashboard, databáze",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -1845,6 +2040,7 @@
       {
        "text": "Opravit bug s TRANSFER investicemi ve statistikách výdajů",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -1854,6 +2050,7 @@
       {
        "text": "Privacy Policy a ToS dvojjazyčně",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -1863,6 +2060,7 @@
       {
        "text": "Store listing",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -1872,6 +2070,7 @@
       {
        "text": "Lokalizace CZ/EN",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -1881,6 +2080,7 @@
       {
        "text": "Vizuální identita Refined Swiss Minimal",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -1890,6 +2090,7 @@
       {
        "text": "Vydat v1.11 na Google Play",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -1915,6 +2116,7 @@
    "nazev": "SF: Glitch",
    "slug": "sf-glitch",
    "stav": "aktivní",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Vertikální SHMUP v Clickteam Fusion 2.5+ DLC pro Android, dotykové ovládání. Repo SFGlitch-test, engine v `ctfproj/`.",
    "krok": "Postavit hratelný vertical slice Stage 1 — Splash → wave → 1 skill → 1 boss — místo dalšího rozšiřování docs.",
@@ -1922,6 +2124,7 @@
     {
      "text": "Postavit hratelný vertical slice Stage 1 end-to-end",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -1931,6 +2134,7 @@
     {
      "text": "FPS test na cílovém Androidu s worst-case scénou (20 Grunt + 3 Střelec + Tank + Letec formace + Kulomet + 2 klony)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "perf"
      ],
@@ -1940,6 +2144,7 @@
     {
      "text": "Opravit P1 průbojnost multi-hit — chybí `ZapTimer=0` gate",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1949,6 +2154,7 @@
     {
      "text": "Opravit P2a homing sub-pixel drift",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -1958,6 +2164,7 @@
     {
      "text": "Rozhodnout kolizi slotu Neutral 1: `Q_Stit` vs. `Q_UpgradeKarta`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -1967,6 +2174,7 @@
     {
      "text": "Vyřešit rozpor doc 88 — klony jsou v `Q_Nepritel`, ale doc tvrdí, že je hráčské projektily nezasáhnou",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -1976,6 +2184,7 @@
     {
      "text": "Rozhodnout strategii proti stropu AV/GlobalN slotů (`Q_Nepritel` už na slotu Y)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -1985,6 +2194,7 @@
     {
      "text": "Doimplementovat lock-on u Homing (`ProjCilX`/`ProjCilY`, docs 06b/06c)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -1994,6 +2204,7 @@
     {
      "text": "Opravit P2b sub-pixel `PosX_F/PosY_F` u `Projektil_Kulomet`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -2003,6 +2214,7 @@
     {
      "text": "Opravit P2c sub-pixel `PosX_F/PosY_F` u `Nepritel_Projektil`",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -2012,6 +2224,7 @@
     {
      "text": "Opravit P3 ms-kadence vs. frame",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -2021,6 +2234,7 @@
     {
      "text": "Opravit P4 Kamikaze dvojitý kontakt",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "bug"
      ],
@@ -2030,6 +2244,7 @@
     {
      "text": "Doimplementovat doc 07 Laser do enginu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2039,6 +2254,7 @@
     {
      "text": "Doimplementovat doc 08 Elektro do enginu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2048,6 +2264,7 @@
     {
      "text": "Doplnit sub-pixel vzor `PosX_F/PosY_F` rovnou do Laser/Elektro",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2057,6 +2274,7 @@
     {
      "text": "Ošetřit dělení nulou v HP/Energy barech (`/ Max(1, MaxHP)`)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2066,6 +2284,7 @@
     {
      "text": "Nahradit křehký vzor HPBar-přes-ID-ownera vrstvením na sprite/Pin",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2075,6 +2294,7 @@
     {
      "text": "Sjednotit a přejmenovat `ZapTImer`/`ZapTimer` v `.mfa` dle rozhodnutí z 07-09",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "engine"
      ],
@@ -2084,6 +2304,7 @@
     {
      "text": "Ověřit v CTF, že Black Hole dvojitý ForEach neseká FPS",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -2093,6 +2314,7 @@
     {
      "text": "Ověřit stav Letce v `.mfa` (bug B7 z wave passu)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -2102,6 +2324,7 @@
     {
      "text": "Test 3+ Kamikaze najednou — riziko sync-turn (bug B12)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -2111,6 +2334,7 @@
     {
      "text": "Sebrat tuning feedback z `wave-lab.html` a propsat hodnoty do INI + docs",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2120,6 +2344,7 @@
     {
      "text": "Sebrat tuning feedback z `boss-gauntlet.html` per boss",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2129,6 +2354,7 @@
     {
      "text": "Rozhodnout roli Laseru — DPS buff vs. crowd-control/slow",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2138,6 +2364,7 @@
     {
      "text": "Vyřešit EnergyBar pro víc souběžných instancí Elektro",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2147,6 +2374,7 @@
     {
      "text": "Přepočítat souřadnice 360→480 v biome docs 56/57/60/61 — banner přidán, čísla ne",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2156,6 +2384,7 @@
     {
      "text": "Vyčistit `design/` od plného CTF kódu bez disclaimeru (`efektove-objekty.md`, `spawn-rift.md`, `zbrane/02-prubojna.md`)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2165,6 +2394,7 @@
     {
      "text": "Přepsat jádro doc 26 (upgrade systém) jako naklikatelný CTF postup",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2174,6 +2404,7 @@
     {
      "text": "Dopracovat docs 74–82 (daily challenge, tutoriál, lokalizace, telemetrie, touch, performance) na rozhodnuté postupy",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2183,6 +2414,7 @@
     {
      "text": "Ověřit platnost cross-referencí design↔reference po dvou vlnách oprav",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2192,6 +2424,7 @@
     {
      "text": "Přejmenovat staré Lvl aliasy v docs 93-101",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2201,6 +2434,7 @@
     {
      "text": "Doc 65 attack routing fází 2-4 — opraveno v docs, otestovat až bude boss v enginu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "test"
      ],
@@ -2210,6 +2444,7 @@
     {
      "text": "Konzistenční grep check na load-bearing konstanty místo ručního auditu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "infra"
      ],
@@ -2219,6 +2454,7 @@
     {
      "text": "Rozšířit huby na 5×5 (všech 5 hubů v každém biomu)",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2228,6 +2464,7 @@
     {
      "text": "Rozhodnout: je rift destroyable, nebo jen timer? Co dělá chapadlo v S5?",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2237,6 +2474,7 @@
     {
      "text": "Bestiář a wave systém vč. restrukturalizace vln §7",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2246,6 +2484,7 @@
     {
      "text": "Prototyp `wave-lab.html` — všech 101 vln",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2255,6 +2494,7 @@
     {
      "text": "Finální CTF event kód všech 6 bossů (docs 40-44 + 65 v2)",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2264,6 +2504,7 @@
     {
      "text": "Prototyp `boss-gauntlet.html`",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2273,6 +2514,7 @@
     {
      "text": "Hub pipeline — 5 hub typů, spawn primitiva, waves.ini",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2282,6 +2524,7 @@
     {
      "text": "Online leaderboard přes Google Play Games + Sheets fallback (doc 103)",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "infra"
      ],
@@ -2291,6 +2534,7 @@
     {
      "text": "Pročištění a dorovnání dokumentace (3 vlny, ~50 souborů)",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2305,6 +2549,7 @@
       {
        "text": "Postavit hratelný vertical slice Stage 1 end-to-end",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2314,6 +2559,7 @@
       {
        "text": "FPS test na cílovém Androidu s worst-case scénou (20 Grunt + 3 Střelec + Tank + Letec formace + Kulomet + 2 klony)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "perf"
        ],
@@ -2323,6 +2569,7 @@
       {
        "text": "Opravit P1 průbojnost multi-hit — chybí `ZapTimer=0` gate",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2332,6 +2579,7 @@
       {
        "text": "Opravit P2a homing sub-pixel drift",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2341,6 +2589,7 @@
       {
        "text": "Rozhodnout kolizi slotu Neutral 1: `Q_Stit` vs. `Q_UpgradeKarta`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2350,6 +2599,7 @@
       {
        "text": "Vyřešit rozpor doc 88 — klony jsou v `Q_Nepritel`, ale doc tvrdí, že je hráčské projektily nezasáhnou",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2359,6 +2609,7 @@
       {
        "text": "Rozhodnout strategii proti stropu AV/GlobalN slotů (`Q_Nepritel` už na slotu Y)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2368,6 +2619,7 @@
       {
        "text": "Doimplementovat lock-on u Homing (`ProjCilX`/`ProjCilY`, docs 06b/06c)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2377,6 +2629,7 @@
       {
        "text": "Opravit P2b sub-pixel `PosX_F/PosY_F` u `Projektil_Kulomet`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2386,6 +2639,7 @@
       {
        "text": "Opravit P2c sub-pixel `PosX_F/PosY_F` u `Nepritel_Projektil`",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2395,6 +2649,7 @@
       {
        "text": "Opravit P3 ms-kadence vs. frame",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2404,6 +2659,7 @@
       {
        "text": "Opravit P4 Kamikaze dvojitý kontakt",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "bug"
        ],
@@ -2413,6 +2669,7 @@
       {
        "text": "Doimplementovat doc 07 Laser do enginu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2422,6 +2679,7 @@
       {
        "text": "Doimplementovat doc 08 Elektro do enginu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2431,6 +2689,7 @@
       {
        "text": "Doplnit sub-pixel vzor `PosX_F/PosY_F` rovnou do Laser/Elektro",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2440,6 +2699,7 @@
       {
        "text": "Ošetřit dělení nulou v HP/Energy barech (`/ Max(1, MaxHP)`)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2449,6 +2709,7 @@
       {
        "text": "Nahradit křehký vzor HPBar-přes-ID-ownera vrstvením na sprite/Pin",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2458,6 +2719,7 @@
       {
        "text": "Sjednotit a přejmenovat `ZapTImer`/`ZapTimer` v `.mfa` dle rozhodnutí z 07-09",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "engine"
        ],
@@ -2467,6 +2729,7 @@
       {
        "text": "Ověřit v CTF, že Black Hole dvojitý ForEach neseká FPS",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -2476,6 +2739,7 @@
       {
        "text": "Ověřit stav Letce v `.mfa` (bug B7 z wave passu)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -2485,6 +2749,7 @@
       {
        "text": "Test 3+ Kamikaze najednou — riziko sync-turn (bug B12)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -2494,6 +2759,7 @@
       {
        "text": "Sebrat tuning feedback z `wave-lab.html` a propsat hodnoty do INI + docs",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2503,6 +2769,7 @@
       {
        "text": "Sebrat tuning feedback z `boss-gauntlet.html` per boss",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2512,6 +2779,7 @@
       {
        "text": "Rozhodnout roli Laseru — DPS buff vs. crowd-control/slow",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2521,6 +2789,7 @@
       {
        "text": "Vyřešit EnergyBar pro víc souběžných instancí Elektro",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2530,6 +2799,7 @@
       {
        "text": "Přepočítat souřadnice 360→480 v biome docs 56/57/60/61 — banner přidán, čísla ne",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2539,6 +2809,7 @@
       {
        "text": "Vyčistit `design/` od plného CTF kódu bez disclaimeru (`efektove-objekty.md`, `spawn-rift.md`, `zbrane/02-prubojna.md`)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2548,6 +2819,7 @@
       {
        "text": "Přepsat jádro doc 26 (upgrade systém) jako naklikatelný CTF postup",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2557,6 +2829,7 @@
       {
        "text": "Dopracovat docs 74–82 (daily challenge, tutoriál, lokalizace, telemetrie, touch, performance) na rozhodnuté postupy",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2566,6 +2839,7 @@
       {
        "text": "Ověřit platnost cross-referencí design↔reference po dvou vlnách oprav",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2575,6 +2849,7 @@
       {
        "text": "Přejmenovat staré Lvl aliasy v docs 93-101",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2584,6 +2859,7 @@
       {
        "text": "Doc 65 attack routing fází 2-4 — opraveno v docs, otestovat až bude boss v enginu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "test"
        ],
@@ -2593,6 +2869,7 @@
       {
        "text": "Konzistenční grep check na load-bearing konstanty místo ručního auditu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "infra"
        ],
@@ -2602,6 +2879,7 @@
       {
        "text": "Rozšířit huby na 5×5 (všech 5 hubů v každém biomu)",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2611,6 +2889,7 @@
       {
        "text": "Rozhodnout: je rift destroyable, nebo jen timer? Co dělá chapadlo v S5?",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2620,6 +2899,7 @@
       {
        "text": "Bestiář a wave systém vč. restrukturalizace vln §7",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2629,6 +2909,7 @@
       {
        "text": "Prototyp `wave-lab.html` — všech 101 vln",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2638,6 +2919,7 @@
       {
        "text": "Finální CTF event kód všech 6 bossů (docs 40-44 + 65 v2)",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2647,6 +2929,7 @@
       {
        "text": "Prototyp `boss-gauntlet.html`",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2656,6 +2939,7 @@
       {
        "text": "Hub pipeline — 5 hub typů, spawn primitiva, waves.ini",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2665,6 +2949,7 @@
       {
        "text": "Online leaderboard přes Google Play Games + Sheets fallback (doc 103)",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "infra"
        ],
@@ -2674,6 +2959,7 @@
       {
        "text": "Pročištění a dorovnání dokumentace (3 vlny, ~50 souborů)",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -2701,6 +2987,7 @@
    "nazev": "Web/blog DeliciousGames",
    "slug": "deliciousgames",
    "stav": "nápad",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Nový web. Zatím není jasné, jestli blog, portfolio, profesní prezentace, nebo kombinace.",
    "krok": "Napsat jednu větu: „Tenhle web existuje proto, aby ___.\" Bez toho nejde vybrat platformu.",
@@ -2708,6 +2995,7 @@
     {
      "text": "Definovat účel webu jednou větou",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2717,6 +3005,7 @@
     {
      "text": "Vybrat platformu — zvážit vlastní WordPress téma",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2726,6 +3015,7 @@
     {
      "text": "Dodat cestu ke složce projektu",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "setup"
      ],
@@ -2740,6 +3030,7 @@
       {
        "text": "Definovat účel webu jednou větou",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2749,6 +3040,7 @@
       {
        "text": "Vybrat platformu — zvážit vlastní WordPress téma",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2758,6 +3050,7 @@
       {
        "text": "Dodat cestu ke složce projektu",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "setup"
        ],
@@ -2782,6 +3075,7 @@
    "nazev": "piseme.online",
    "slug": "piseme-online",
    "stav": "nápad",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Zamýšlená platforma pro psaní — komunitní web, kde autoři publikují díla a čtenáři objevují obsah a reagují na něj.",
    "krok": "Rozhodnout, jestli se do toho pouštíš. Teprve pak zakládat repo a psát schéma databáze.",
@@ -2789,6 +3083,7 @@
     {
      "text": "Rozhodnout, jestli se do toho pouštíš",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2798,6 +3093,7 @@
     {
      "text": "Osekat rozsah na MVP — autor publikuje, čtenář čte",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "design"
      ],
@@ -2812,6 +3108,7 @@
       {
        "text": "Rozhodnout, jestli se do toho pouštíš",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2821,6 +3118,7 @@
       {
        "text": "Osekat rozsah na MVP — autor publikuje, čtenář čte",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "design"
        ],
@@ -2842,6 +3140,7 @@
    "nazev": "TimeControl",
    "slug": "timecontrol",
    "stav": "nápad",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Zamýšlená aplikace na správu času — kalendář plus úkoly, Android i web, synchronizované přes Firebase.",
    "krok": "Rozhodnout, jestli se do toho jde — a pokud ano, vyjasnit překryv s Flutter plánovačem dřív, než vznikne první řádek.",
@@ -2849,6 +3148,7 @@
     {
      "text": "Rozhodnout, jestli se do toho jde",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2858,6 +3158,7 @@
     {
      "text": "Vyjasnit duplicitu s Flutter plánovačem",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "rozhodnuti"
      ],
@@ -2872,6 +3173,7 @@
       {
        "text": "Rozhodnout, jestli se do toho jde",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2881,6 +3183,7 @@
       {
        "text": "Vyjasnit duplicitu s Flutter plánovačem",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "rozhodnuti"
        ],
@@ -2902,6 +3205,7 @@
    "nazev": "Transkripce",
    "slug": "speech-reading-tracker",
    "stav": "hotovo",
+   "repo": "",
    "aktualizovano": "2026-09-16",
    "co": "Jednoduchý Windows nástroj pro přepis zvukových souborů (m4a, mp3, wav, mp4) na text. Běží lokálně a offline přes faster-whisper. Default čeština.",
    "krok": "Nic akutního. Nástroj je hotový a použitelný.",
@@ -2909,6 +3213,7 @@
     {
      "text": "Ověřit identitu projektu vůči Speech Reading Trackeru",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "otazka"
      ],
@@ -2918,6 +3223,7 @@
     {
      "text": "Přesunout `Transkripce.zip` (100 MB) mimo git repo a historii",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2927,6 +3233,7 @@
     {
      "text": "Projít `backups/` — archivovat nebo uklidit staré zálohy",
      "hotovo": false,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2936,6 +3243,7 @@
     {
      "text": "GUI s dávkovým přepisem více souborů",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -2945,6 +3253,7 @@
     {
      "text": "Volba modelu, jazyka a zařízení",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -2954,6 +3263,7 @@
     {
      "text": "Časové značky `[mm:ss -> mm:ss]`",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "app"
      ],
@@ -2963,6 +3273,7 @@
     {
      "text": "GPU zrychlení přes cuBLAS a cuDNN s fallbackem na CPU",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "perf"
      ],
@@ -2972,6 +3283,7 @@
     {
      "text": "Zabalení přes PyInstaller — `dist/` i ZIP",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "release"
      ],
@@ -2981,6 +3293,7 @@
     {
      "text": "README s instalací, modely a GPU",
      "hotovo": true,
+     "issue": null,
      "tagy": [
       "docs"
      ],
@@ -2995,6 +3308,7 @@
       {
        "text": "Ověřit identitu projektu vůči Speech Reading Trackeru",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "otazka"
        ],
@@ -3004,6 +3318,7 @@
       {
        "text": "Přesunout `Transkripce.zip` (100 MB) mimo git repo a historii",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -3013,6 +3328,7 @@
       {
        "text": "Projít `backups/` — archivovat nebo uklidit staré zálohy",
        "hotovo": false,
+       "issue": null,
        "tagy": [
         "docs"
        ],
@@ -3022,6 +3338,7 @@
       {
        "text": "GUI s dávkovým přepisem více souborů",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -3031,6 +3348,7 @@
       {
        "text": "Volba modelu, jazyka a zařízení",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -3040,6 +3358,7 @@
       {
        "text": "Časové značky `[mm:ss -> mm:ss]`",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "app"
        ],
@@ -3049,6 +3368,7 @@
       {
        "text": "GPU zrychlení přes cuBLAS a cuDNN s fallbackem na CPU",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "perf"
        ],
@@ -3058,6 +3378,7 @@
       {
        "text": "Zabalení přes PyInstaller — `dist/` i ZIP",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "release"
        ],
@@ -3067,6 +3388,7 @@
       {
        "text": "README s instalací, modely a GPU",
        "hotovo": true,
+       "issue": null,
        "tagy": [
         "docs"
        ],
