@@ -1,5 +1,5 @@
 {
- "generovano": "2026-09-20",
+ "generovano": "2026-09-21",
  "projekty": [
   {
    "nazev": "FGBE-ModernV2",
@@ -891,7 +891,7 @@
     "**Fáze 3:** postavit Next.js PWA, nebo nechat lite web jako náhradu?"
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "Sylvarium: Seed & Saw",
@@ -1581,7 +1581,7 @@
     "**Nakama na VPS** (~150–300 Kč/měs) vs. zůstat na lokálním backendu."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "Korunka",
@@ -2110,7 +2110,7 @@
     "**SQLCipher šifrování databáze** — nice-to-have."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "SF: Glitch",
@@ -2981,7 +2981,7 @@
     "**Pravopis `ZapTImer`:** kánon z 07-09 má velké I podle exportu, ale audit z 07-07 rozhodl malé i. Je to typo, nebo to tak má zůstat?"
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "Web/blog DeliciousGames",
@@ -3069,7 +3069,7 @@
     "Vyžadovaná funkcionalita a vizuální preference."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "piseme.online",
@@ -3134,7 +3134,7 @@
     "Pokud do toho půjdeš: osekat na MVP, kde autor publikuje text a čtenář ho čte. Bez notifikací, messagingu a analytiky."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "TimeControl",
@@ -3199,7 +3199,7 @@
     "Jestli tohle vůbec chceš stavět, nebo to byl jen průzkum."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   },
   {
    "nazev": "Transkripce",
@@ -3403,7 +3403,7 @@
     "**Pozor, ověř identitu projektu.** V dřívějších konverzacích figuroval „Speech Reading Tracker\" — Python aplikace na trénink čtení nahlas (zvýrazňování slov během čtení, statistiky WPM a přesnosti, tkinter GUI, enginy Vosk / PocketSphinx / Google Speech API, IDLE kompatibilita). To je jiná aplikace než Transkripce. Buď se z jednoho vyvinulo druhé, nebo ten reading tracker leží někde jinde. Řekni které, a STAV.md se opraví."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 4
+   "ticho_dni": 5
   }
  ]
 }
