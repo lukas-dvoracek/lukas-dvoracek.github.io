@@ -1,5 +1,5 @@
 {
- "generovano": "2026-09-22",
+ "generovano": "2026-09-23",
  "projekty": [
   {
    "nazev": "FGBE-ModernV2",
@@ -891,697 +891,7 @@
     "**Fáze 3:** postavit Next.js PWA, nebo nechat lite web jako náhradu?"
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
-  },
-  {
-   "nazev": "Sylvarium: Seed & Saw",
-   "slug": "forest-manager",
-   "stav": "aktivní",
-   "repo": "lukas-dvoracek/ForestryGame",
-   "aktualizovano": "2026-09-16",
-   "co": "Strategická lesnická simulace, mobile-first s PC kompatibilitou. Realistická, ne arkádová — česká a evropská lesnická praxe, exotické dřevo jako endgame. Dřív „Forest Manager\"; repo je `ForestryGame`.",
-   "krok": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template na PC — bez nich nejde vyrobit build.",
-   "ukoly": [
-    {
-     "text": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "android"
-     ],
-     "termin": null,
-     "prio": "vysoka"
-    },
-    {
-     "text": "Schválit a provést plán integrace nové mapy — parcely s tvary + spojité zakmenění % místo slotů",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "rozhodnuti"
-     ],
-     "termin": null,
-     "prio": "vysoka"
-    },
-    {
-     "text": "Dotykové UI nebo radiál pro telefon — teď jde hrát jen s klávesnicí",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "vysoka"
-    },
-    {
-     "text": "Nasadit Blender GLB assety do Godot buildu",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "assets"
-     ],
-     "termin": null,
-     "prio": "vysoka"
-    },
-    {
-     "text": "Ověřit výkon na PC i telefonu po výměně assetů",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "perf"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "app"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "perf"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "rozhodnuti"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Dodělat nekonečnou mapu přes obklopující prstence",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Předělat fog-of-war na sépiový vzhled staré mapy",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Playtest balance první hodiny hry a doladit `config.js`",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Tutoriál a onboarding prvních akcí",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "docs"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "app"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Dopravní prostředky",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Expanze území",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Pila a štěpkovač",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Půda pro dřevinu — typ půdy × preference druhu",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Sezónní a globální výzvy s žebříčkem",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Myslivost a hony",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Achievementy a odemykatelná encyklopedie",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "Lokalizace EN/DE",
-     "hotovo": false,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "nizka"
-    },
-    {
-     "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Návrh Wood-Wide Web mykorhizy",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Návrh dynamického kůrovce",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Návrh počasí a katastrof",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Návrh exotického dřeva a černého trhu",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "design"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Rozhodnutí přejít na Godot 4.7",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "rozhodnuti"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "Android export presety APK i AAB",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "android"
-     ],
-     "termin": null,
-     "prio": "normal"
-    },
-    {
-     "text": "NetClient vrstva s lokálním offline-first backendem",
-     "hotovo": true,
-     "issue": null,
-     "tagy": [
-      "gameplay"
-     ],
-     "termin": null,
-     "prio": "normal"
-    }
-   ],
-   "skupiny": [
-    {
-     "nazev": null,
-     "ukoly": [
-      {
-       "text": "Doinstalovat Godot 4.7.1 Export Templates a Android Build Template",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "android"
-       ],
-       "termin": null,
-       "prio": "vysoka"
-      },
-      {
-       "text": "Schválit a provést plán integrace nové mapy — parcely s tvary + spojité zakmenění % místo slotů",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "rozhodnuti"
-       ],
-       "termin": null,
-       "prio": "vysoka"
-      },
-      {
-       "text": "Dotykové UI nebo radiál pro telefon — teď jde hrát jen s klávesnicí",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "vysoka"
-      },
-      {
-       "text": "Nasadit Blender GLB assety do Godot buildu",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "assets"
-       ],
-       "termin": null,
-       "prio": "vysoka"
-      },
-      {
-       "text": "Ověřit výkon na PC i telefonu po výměně assetů",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "perf"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "app"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "perf"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "rozhodnuti"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Dodělat nekonečnou mapu přes obklopující prstence",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Předělat fog-of-war na sépiový vzhled staré mapy",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Playtest balance první hodiny hry a doladit `config.js`",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Tutoriál a onboarding prvních akcí",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "docs"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "app"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Dopravní prostředky",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Expanze území",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Pila a štěpkovač",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Půda pro dřevinu — typ půdy × preference druhu",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Sezónní a globální výzvy s žebříčkem",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Myslivost a hony",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Achievementy a odemykatelná encyklopedie",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "Lokalizace EN/DE",
-       "hotovo": false,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "nizka"
-      },
-      {
-       "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Návrh Wood-Wide Web mykorhizy",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Návrh dynamického kůrovce",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Návrh počasí a katastrof",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Návrh exotického dřeva a černého trhu",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "design"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Rozhodnutí přejít na Godot 4.7",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "rozhodnuti"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "Android export presety APK i AAB",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "android"
-       ],
-       "termin": null,
-       "prio": "normal"
-      },
-      {
-       "text": "NetClient vrstva s lokálním offline-first backendem",
-       "hotovo": true,
-       "issue": null,
-       "tagy": [
-        "gameplay"
-       ],
-       "termin": null,
-       "prio": "normal"
-      }
-     ]
-    }
-   ],
-   "blokery": [
-    "Bez Export Templates a Android Build Template nejde vyrobit build — jednorázové kroky, které se opakují po každém upgradu Godotu.",
-    "Na telefonu se hra reálně ovládat nedá, dokud není dotykové UI."
-   ],
-   "rozhodnuti": [
-    "**Název:** dokumentace a Godot build už používají „Sylvarium: Seed & Saw\", starší zápisy vedou „Forest Manager\". Sjednotit.",
-    "**Nová mapa:** plán na parcely s tvary a spojité zakmenění je hotový a čeká na schválení.",
-    "**Capacitor/iOS balení webového prototypu** (ROADMAP v0.3) — platí ještě, nebo to nahradil Godot Android export?",
-    "**Nakama na VPS** (~150–300 Kč/měs) vs. zůstat na lokálním backendu."
-   ],
-   "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   },
   {
    "nazev": "Korunka",
@@ -2110,7 +1420,7 @@
     "**SQLCipher šifrování databáze** — nice-to-have."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   },
   {
    "nazev": "SF: Glitch",
@@ -2981,7 +2291,833 @@
     "**Pravopis `ZapTImer`:** kánon z 07-09 má velké I podle exportu, ale audit z 07-07 rozhodl malé i. Je to typo, nebo to tak má zůstat?"
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
+  },
+  {
+   "nazev": "Sylvarium: Seed & Saw",
+   "slug": "forest-manager",
+   "stav": "aktivní",
+   "repo": "lukas-dvoracek/ForestryGame",
+   "aktualizovano": "2026-09-22",
+   "co": "Strategická lesnická simulace, mobile-first s PC kompatibilitou. Realistická, ne arkádová — česká a evropská lesnická praxe, exotické dřevo jako endgame. Dřív „Forest Manager\"; repo je `ForestryGame`.",
+   "krok": "Commitnout úpravy z `docs/GIT-ZMENY.md`, zahrát si první hodinu na telefonu (uvítání, zakázky, offline shrnutí), pak portovat ekoskóre + dotace + půjčku (`rating.js`, `finance.js`).",
+   "ukoly": [
+    {
+     "text": "Ověřit dotykové ovládání na telefonu — radiál, posun, pinch zoom",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "vysoka"
+    },
+    {
+     "text": "Ověřit výkon na PC i telefonu po výměně assetů",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "perf"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "app"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "perf"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "rozhodnuti"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Spustit v Godotu barevný nevlastnitelný terén — navázání barev na hranici prstenců A↔B, datové vrstvy přes vodu",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Playtest balance první hodiny hry na telefonu (simulace hotová: `godot/tests/balance_sim.tscn`)",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Port ekoskóre + dotace + půjčka (rating.js, finance.js) do Godotu",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "docs"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Port školky (nursery.js) a dekorací (decorations.js) do Godotu",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "app"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Dopravní prostředky",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Pila a štěpkovač",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Půda pro dřevinu — typ půdy × preference druhu",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Sezónní a globální výzvy s žebříčkem",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Myslivost a hony",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Achievementy a odemykatelná encyklopedie",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Lokalizace EN/DE",
+     "hotovo": false,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "nizka"
+    },
+    {
+     "text": "Tutoriál a onboarding prvních akcí — uvítání + nápověda „co dělat teď“",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Port zakázek (orders.js) do Godotu + 15 kapitol příběhu",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Expanze území — koupě parcel s progresivní cenou + mosty přes řeku",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Návrh Wood-Wide Web mykorhizy",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Návrh dynamického kůrovce",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Návrh počasí a katastrof",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Návrh exotického dřeva a černého trhu",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "design"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Rozhodnutí přejít na Godot 4.7",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "rozhodnuti"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Android export presety APK i AAB",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "android"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Export Templates + Android Build Template, build běží na telefonu",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "android"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "NetClient vrstva s lokálním offline-first backendem",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Nasadit Blender GLB assety do Godot buildu",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "assets"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Nekonečná mapa přes obklopující prstence A a B",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Sépiový průzkum místo mračen",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Voda, hory, městečko a cesta vždy barevně (mimo sépii)",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Radiální menu parcel",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Parcely s tvary + spojité zakmenění v Godotu",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    },
+    {
+     "text": "Škůdci a počasí do Godotu (pests.gd) + toast hlášky",
+     "hotovo": true,
+     "issue": null,
+     "tagy": [
+      "gameplay"
+     ],
+     "termin": null,
+     "prio": "normal"
+    }
+   ],
+   "skupiny": [
+    {
+     "nazev": null,
+     "ukoly": [
+      {
+       "text": "Ověřit dotykové ovládání na telefonu — radiál, posun, pinch zoom",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "vysoka"
+      },
+      {
+       "text": "Ověřit výkon na PC i telefonu po výměně assetů",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "perf"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Vyřešit .NET pozůstatek `project/assembly_name` v `project.godot` — přejít na standardní build",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "app"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Ověřit fallback na `gl_compatibility` renderer pro slabší GPU",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "perf"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "MVP scoping — rozhodnout rozsah čtyř systémů do první hratelné verze",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "rozhodnuti"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Spustit v Godotu barevný nevlastnitelný terén — navázání barev na hranici prstenců A↔B, datové vrstvy přes vodu",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Playtest balance první hodiny hry na telefonu (simulace hotová: `godot/tests/balance_sim.tscn`)",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Port ekoskóre + dotace + půjčka (rating.js, finance.js) do Godotu",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Napojit cloud save na Net vrstvu (multiplayer fáze 1)",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Aktualizovat `ROADMAP.md` podle stavu po přechodu na Godot",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "docs"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Port školky (nursery.js) a dekorací (decorations.js) do Godotu",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Smazat `_to_delete/android-setup-bak/` po ověření nového nastavení",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "app"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Nasadit Nakama server + `NetBackendNakama` adaptér (fáze 2)",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Zaměstnanci — lesníci, dřevorubci, obchodníci",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Dopravní prostředky",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Pila a štěpkovač",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Půda pro dřevinu — typ půdy × preference druhu",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Sezónní a globální výzvy s žebříčkem",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Myslivost a hony",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Achievementy a odemykatelná encyklopedie",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Lokalizace EN/DE",
+       "hotovo": false,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "nizka"
+      },
+      {
+       "text": "Tutoriál a onboarding prvních akcí — uvítání + nápověda „co dělat teď“",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Port zakázek (orders.js) do Godotu + 15 kapitol příběhu",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Expanze území — koupě parcel s progresivní cenou + mosty přes řeku",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "HTML5 prototyp — sázení, růst, těžba, ekonomika, touch",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Návrh Wood-Wide Web mykorhizy",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Návrh dynamického kůrovce",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Návrh počasí a katastrof",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Návrh exotického dřeva a černého trhu",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "design"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Rozhodnutí přejít na Godot 4.7",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "rozhodnuti"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Android export presety APK i AAB",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "android"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Export Templates + Android Build Template, build běží na telefonu",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "android"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "NetClient vrstva s lokálním offline-first backendem",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Nasadit Blender GLB assety do Godot buildu",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "assets"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Nekonečná mapa přes obklopující prstence A a B",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Sépiový průzkum místo mračen",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Voda, hory, městečko a cesta vždy barevně (mimo sépii)",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Radiální menu parcel",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Parcely s tvary + spojité zakmenění v Godotu",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      },
+      {
+       "text": "Škůdci a počasí do Godotu (pests.gd) + toast hlášky",
+       "hotovo": true,
+       "issue": null,
+       "tagy": [
+        "gameplay"
+       ],
+       "termin": null,
+       "prio": "normal"
+      }
+     ]
+    }
+   ],
+   "blokery": [],
+   "rozhodnuti": [
+    "**Název:** dokumentace a Godot build už používají „Sylvarium: Seed & Saw\", starší zápisy vedou „Forest Manager\". Sjednotit.",
+    "**Capacitor/iOS balení webového prototypu** (ROADMAP v0.3) — platí ještě, nebo to nahradil Godot Android export?",
+    "**Nakama na VPS** (~150–300 Kč/měs) vs. zůstat na lokálním backendu."
+   ],
+   "posledni_zaznam": "2026-09-22",
+   "ticho_dni": 1
   },
   {
    "nazev": "Web/blog DeliciousGames",
@@ -3069,7 +3205,7 @@
     "Vyžadovaná funkcionalita a vizuální preference."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   },
   {
    "nazev": "piseme.online",
@@ -3134,7 +3270,7 @@
     "Pokud do toho půjdeš: osekat na MVP, kde autor publikuje text a čtenář ho čte. Bez notifikací, messagingu a analytiky."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   },
   {
    "nazev": "TimeControl",
@@ -3199,7 +3335,7 @@
     "Jestli tohle vůbec chceš stavět, nebo to byl jen průzkum."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   },
   {
    "nazev": "Transkripce",
@@ -3403,7 +3539,7 @@
     "**Pozor, ověř identitu projektu.** V dřívějších konverzacích figuroval „Speech Reading Tracker\" — Python aplikace na trénink čtení nahlas (zvýrazňování slov během čtení, statistiky WPM a přesnosti, tkinter GUI, enginy Vosk / PocketSphinx / Google Speech API, IDLE kompatibilita). To je jiná aplikace než Transkripce. Buď se z jednoho vyvinulo druhé, nebo ten reading tracker leží někde jinde. Řekni které, a STAV.md se opraví."
    ],
    "posledni_zaznam": "2026-09-16",
-   "ticho_dni": 6
+   "ticho_dni": 7
   }
  ]
 }
